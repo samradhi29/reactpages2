@@ -94,7 +94,7 @@ export default function Meetingarea() {
                   <div className='flex justify-between items-center'>
                     <span className='font-kanit text-[18px] text-white'>Meeting Room {room}</span>
                     <div className='flex items-center gap-[6px]'>
-                      <img src="/public/Star.png" alt="star" />
+                      <img src='/public/Star.png' alt="star" />
                       <span className={`${idx === 0 ? 'text-black' : 'text-[#D175B6]'} font-kanit text-[16px]`}>12 Positions</span>
                     </div>
                   </div>
