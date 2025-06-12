@@ -32,7 +32,7 @@ export default function Event() {
   <LeftSidebar/>
   
         {/* Event Content Area */}
-        <div className="w-[900px] flex flex-col gap-[20px] bg-[#0000004D] border-[2px] border-[#D175B6] rounded-2xl ">
+        <div className="w-[1000px] flex flex-col gap-[20px] bg-[#0000004D] border-[2px] border-[#D175B6] rounded-2xl ">
           {/* Event Request Header */}
           <div className="h-[70px] bg-[#0000004D] shadow-[0_0_30px_0_#D175B666] p-[20px] flex justify-between">
             <span className="font-kanit text-[20px] text-[#FFFFFF] mb-4 block">Event Requests</span>
@@ -76,7 +76,7 @@ export default function Event() {
 
             {/* Scrollable Table Content */}
             <div className="overflow-x-auto">
-              <div className="min-w-[1400px] pl-[150px]">
+              <div className="min-w-[1500px] pl-[150px]">
                 {/* Header Row (excluding Event Name) */}
                 <div className="sticky top-0 h-[50px] p-[10px] bg-[#D175B6] grid grid-cols-[1fr_1fr_1fr_1fr_1.2fr_1fr_1fr_1fr] gap-4 text-white font-kanit text-[12px] items-center">
                   <div className="flex items-center gap-1 cursor-pointer">

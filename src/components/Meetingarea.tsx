@@ -6,7 +6,7 @@ export default function Meetingarea() {
     const navigate = useNavigate();
   return (
     <div className='flex flex-col items-center'>
-      <div className='relative w-[1334px] h-[917px] rounded-4xl border-[2px] bg-gradient-to-br from-gray-850 via-slate-900 to-blue-950 py-[20px] px-[40px] border-[#D175B6] shadow-[0px_0px_30px_0px_#D175B633]'>
+      <div className='relative w-[1300px] h-[917px] rounded-4xl border-[2px] bg-gradient-to-br from-gray-850 via-slate-900 to-blue-950 py-[20px] px-[40px] border-[#D175B6] shadow-[0px_0px_30px_0px_#D175B633]'>
       {/* Header with back arrow and title */}
       <div className="w-[1254px] h-[40px] gap-[10px] flex items-center mb-[20px]">
         <ChevronLeft className="w-6 h-6 text-white cursor-pointer hover:text-pink-400 transition-colors "  onClick={() => navigate("/Event")} />
