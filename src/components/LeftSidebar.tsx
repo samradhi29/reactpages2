@@ -2,7 +2,7 @@ import { LogOut } from "lucide-react";
 
 export default function LeftSidebar() {
   return (
-    <div className="bg-black/50 sidebar w-[260px] h-[917px] rounded-[16px] flex flex-col justify-between border-[2px] border-[#D175B6] shadow-[0_0_30px_0_#D175B666] p-8">
+    <div className="bg-black/50 sidebar w-[260px] h-[1010px] rounded-[16px] flex flex-col justify-between border-[2px] border-[#D175B6] shadow-[0_0_30px_0_#D175B666] p-8">
       <div className="dropdown w-[260px] h-[594px] flex flex-col gap-[4px] px-4 pt-4 relative">
         
         {/* Curved Lines Container */}
