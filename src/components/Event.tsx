@@ -32,7 +32,7 @@ export default function Event() {
   <LeftSidebar/>
   
         {/* Event Content Area */}
-        <div className="w-[700px] flex flex-col gap-[20px] bg-[#0000004D] border-[2px] border-[#D175B6] rounded-2xl ">
+        <div className="w-[1100px] flex flex-col gap-[20px] bg-[#0000004D] border-[2px] border-[#D175B6] rounded-2xl ">
           {/* Event Request Header */}
           <div className="h-[70px] bg-[#0000004D] shadow-[0_0_30px_0_#D175B666] p-[20px] flex justify-between">
             <span className="font-kanit text-[20px] text-[#FFFFFF] mb-4 block">Event Requests</span>
