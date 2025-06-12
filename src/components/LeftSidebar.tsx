@@ -2,7 +2,7 @@ import { LogOut } from "lucide-react";
 
 export default function LeftSidebar() {
   return (
-    <div className="bg-black/50 sidebar w-[300px] h-[917px] rounded-[16px] flex flex-col justify-between border-[2px] border-[#D175B6] shadow-[0_0_30px_0_#D175B666] p-8">
+    <div className="bg-black/50 sidebar w-[260px] h-[917px] rounded-[16px] flex flex-col justify-between border-[2px] border-[#D175B6] shadow-[0_0_30px_0_#D175B666] p-8">
       <div className="dropdown w-[260px] h-[594px] flex flex-col gap-[4px] px-4 pt-4 relative">
         
         {/* Curved Lines Container */}
@@ -40,13 +40,13 @@ export default function LeftSidebar() {
         </div>
 
         {/* Events Button */}
-        <div className="w-full h-[56px] rounded-lg border-[2px] border-[#D175B6] py-[16px] px-[20px] flex items-center justify-between shadow-[0_0_30px_0_#D175B666] bg-[#0000004D]">
+        <div className="w-[200px] h-[56px] rounded-lg border-[2px] border-[#D175B6] py-[16px] px-[20px] flex items-center justify-between shadow-[0_0_30px_0_#D175B666] bg-[#0000004D]">
           <p className="text-[#D175B6] text-[14px] font-light font-kanit">Events</p>
           <span className="w-6 h-6 flex items-center justify-center rounded-full rotate-180 bg-gray-800 text-white">^</span>
         </div>
 
         {/* Details */}
-        <div className="flex flex-col gap-[8px] mt-2 relative pl-8">
+        <div className="flex flex-col gap-[8px] mt-2 relative pl-8 w-[200px]">
           <div className="bg-black border border-[#D175B6] shadow-[0_0_30px_0_#D175B666] rounded-md px-[14px] py-[8px]">
             <p className="text-[#D175B6] text-[14px] font-light font-kanit">New Requests</p>
           </div>
