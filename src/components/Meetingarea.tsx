@@ -132,7 +132,7 @@ export default function Meetingarea() {
               ))}
 
               <div className='flex justify-center items-center p-[12px] gap-[6px]'>
-                {[0, 1, 2, 3].map((d, i) => (
+                {[0, 1, 2, 3].map(( i) => (
                   <div key={i} className={`w-[6px] h-[6px] rounded-full ${i === 2 ? 'bg-[#D175B6]' : 'bg-[#666]'}`}></div>
                 ))}
               </div>
