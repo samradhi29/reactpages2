@@ -1,6 +1,5 @@
-import React from 'react';
 
-import { Search, Eye, LogOut, ChevronUp, ChevronDown, ChevronLeft, ChevronRight, Bell, LayoutDashboard, Bitcoin } from 'lucide-react';
+import { Search, Eye,} from 'lucide-react';
 import { Info } from 'lucide-react';
 import Navbar from './Navbar';
 import LeftSidebar from './LeftSidebar';
