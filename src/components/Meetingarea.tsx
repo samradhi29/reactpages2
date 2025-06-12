@@ -3,40 +3,40 @@ import { ChevronDown, ChevronLeft } from 'lucide-react';
 
 export default function Meetingarea() {
   const navigate = useNavigate();
+
   return (
     <div className='flex flex-col items-center'>
       {/* Main Container */}
-      <div className='relative w-[1100px] h-[1020px] rounded-3xl border-[2px] bg-gradient-to-br from-gray-850 via-slate-900 to-blue-950 py-[20px] px-[40px] border-[#D175B6] shadow-[0px_0px_30px_0px_#D175B633]'>
+      <div className='relative w-[1180px] h-[1080px] rounded-3xl border-[2px] bg-gradient-to-br from-gray-850 via-slate-900 to-blue-950 py-[20px] px-[40px] border-[#D175B6] shadow-[0px_0px_30px_0px_#D175B633]'>
 
         {/* Header */}
         <div className="w-full flex items-center mb-[20px]">
           <ChevronLeft className="w-6 h-6 text-white cursor-pointer hover:text-pink-400 transition-colors mr-[10px]" onClick={() => navigate("/Event")} />
-          <p className='font-kanit text-[32px] font-normal text-[#FFFFFF]'>
-            Event Name
-            <span className='text-[20px] font-light ml-3'>(Venue Details)</span>
+          <p className='font-kanit text-[32px] font-normal text-[#FFFFFF] break-words'>
+            Event Name <span className='text-[20px] font-light ml-3'>(Venue Details)</span>
           </p>
         </div>
 
         {/* Tabs */}
-        <div className='w-[740px] h-[48px] rounded-[10px] border-[2px] border-[#D175B6] flex mb-[28px]'>
-          <div className='w-[135px] h-full flex items-center justify-center border-r border-[#D175B6]'>
-            <span className='font-kanit font-medium text-[#D175B6] text-[16px]'>Event Details</span>
+        <div className='w-[780px] h-[48px] rounded-[10px] border-[2px] border-[#D175B6] flex mb-[28px]'>
+          <div className='w-[140px] h-full flex items-center justify-center border-r border-[#D175B6]'>
+            <span className='font-kanit font-medium text-[#D175B6] text-[16px] text-center break-words'>Event Details</span>
           </div>
-          <div className='w-[260px] h-full px-[18px] bg-[#D175B6] flex items-center justify-center'>
-            <span className='text-[#FFFFFF] text-[16px] font-kanit font-medium'>Assign Coordinator/Contractor</span>
+          <div className='w-[280px] h-full px-[18px] bg-[#D175B6] flex items-center justify-center'>
+            <span className='text-[#FFFFFF] text-[16px] font-kanit font-medium text-center break-words'>Assign Coordinator/Contractor</span>
           </div>
-          <div className='w-[190px] h-full flex items-center justify-center border-r border-[#D175B6]'>
-            <span className='font-kanit font-medium text-[#D175B6] text-[16px]'>Session Management</span>
+          <div className='w-[200px] h-full flex items-center justify-center border-r border-[#D175B6]'>
+            <span className='font-kanit font-medium text-[#D175B6] text-[16px] text-center break-words'>Session Management</span>
           </div>
           <div className='w-[160px] h-full flex items-center justify-center'>
-            <span className='font-kanit font-medium text-[#D175B6] text-[16px]'>Generate SOW</span>
+            <span className='font-kanit font-medium text-[#D175B6] text-[16px] text-center break-words'>Generate SOW</span>
           </div>
         </div>
 
         {/* Mid Content */}
-        <div className='w-full flex gap-[20px]'>
+        <div className='w-full flex gap-[24px]'>
           {/* Left Side */}
-          <div className='w-[510px] flex flex-col gap-[12px]'>
+          <div className='w-[530px] flex flex-col gap-[12px]'>
             <p className='font-kanit font-medium text-[#FFFFFF] text-[18px] mb-[12px]'>Assign Coordinator</p>
 
             <div className='relative mb-[20px]'>
@@ -58,22 +58,22 @@ export default function Meetingarea() {
           </div>
 
           {/* Right Side */}
-          <div className='w-[540px] flex flex-col gap-[12px]'>
-            <p className='font-kanit font-medium text-[18px] text-[#FFFFFF] mb-[12px]'>
+          <div className='w-[580px] flex flex-col gap-[12px]'>
+            <p className='font-kanit font-medium text-[18px] text-[#FFFFFF] mb-[12px] break-words'>
               Event Name <span className='text-[16px] text-[#FFFFFF] font-light'>(Venue Here)</span>
             </p>
 
             <div className='w-full h-[44px] py-[10px] px-[14px] bg-[#1a1b2e] border-[2px] border-[#D175B6] rounded-[10px] flex justify-between items-center'>
-              <span className='font-kanit font-light text-[15px] text-[#FFFFFF]'>
+              <span className='font-kanit font-light text-[15px] text-[#FFFFFF] break-words'>
                 Start: <span className='font-bold'>12-12-2023</span>
               </span>
-              <span className='font-kanit font-light text-[15px] text-[#FFFFFF]'>
+              <span className='font-kanit font-light text-[15px] text-[#FFFFFF] break-words'>
                 Ends: <span className='font-bold'>15-12-2023</span>
               </span>
             </div>
 
-            <div className='w-full h-[44px] py-[10px] px-[14px] bg-[#1a1b2e] border-[2px] border-[#D175B6] rounded-[10px] flex items-center'>
-              <span className='font-kanit font-light text-[15px] text-[#FFFFFF]'>
+            <div className='w-full h-auto py-[10px] px-[14px] bg-[#1a1b2e] border-[2px] border-[#D175B6] rounded-[10px] flex items-center'>
+              <span className='font-kanit font-light text-[15px] text-[#FFFFFF] break-words'>
                 Venue Address: <span className='font-bold'>Some Location 12, Name Here, City</span>
               </span>
             </div>
@@ -81,31 +81,31 @@ export default function Meetingarea() {
         </div>
 
         {/* Bottom Section */}
-        <div className='w-full flex gap-[20px] mt-[28px]'>
+        <div className='w-full flex gap-[24px] mt-[28px]'>
           {/* Rooms List */}
-          <div className='w-[320px]'>
+          <div className='w-[340px]'>
             <p className='font-kanit font-medium text-[#FFFFFF] text-[18px] mb-[12px]'>Assign Contractor</p>
-            <div className='bg-[#000] w-full h-[500px] rounded-[10px] p-[14px] border border-[#D175B6] shadow-[0_0_30px_0_#D175B633] flex flex-col gap-[14px]'>
+            <div className='bg-[#000] w-full h-[500px] rounded-[10px] p-[14px] border border-[#D175B6] shadow-[0_0_30px_0_#D175B633] flex flex-col gap-[14px] overflow-y-auto'>
               {[1, 2, 3, 4, 5].map((room, idx) => (
                 <div
                   key={room}
-                  className={`w-full h-[80px] p-[14px] rounded-[12px] ${idx === 0 ? 'bg-[#D175B6]' : 'border-[2px] border-[#D175B6]'} flex flex-col justify-between`}
+                  className={`w-full min-h-[80px] p-[14px] rounded-[12px] ${idx === 0 ? 'bg-[#D175B6]' : 'border-[2px] border-[#D175B6]'} flex flex-col justify-between`}
                 >
-                  <div className='flex justify-between items-center'>
-                    <span className='font-kanit text-[18px] text-white'>Meeting Room {room}</span>
+                  <div className='flex justify-between items-center flex-wrap'>
+                    <span className='font-kanit text-[18px] text-white break-words'>Meeting Room {room}</span>
                     <div className='flex items-center gap-[6px]'>
-                      <img src='/public/Star.png' alt="star" />
-                      <span className={`${idx === 0 ? 'text-black' : 'text-[#D175B6]'} font-kanit text-[16px]`}>12 Positions</span>
+                      <img src='/public/Star.png' alt="star" className='w-4 h-4' />
+                      <span className={`${idx === 0 ? 'text-black' : 'text-[#D175B6]'} font-kanit text-[16px] break-words`}>12 Positions</span>
                     </div>
                   </div>
-                  <span className='font-kanit text-[14px] text-white'>12 Jan 2023 - 15 Jan 2023</span>
+                  <span className='font-kanit text-[14px] text-white break-words'>12 Jan 2023 - 15 Jan 2023</span>
                 </div>
               ))}
             </div>
           </div>
 
           {/* Positions Table */}
-          <div className='w-[620px]'>
+          <div className='w-[660px]'>
             <p className='font-kanit font-medium text-[#FFFFFF] text-[18px] mb-[12px]'>Positions</p>
             <div className='bg-[#000] border border-[#D175B6] rounded-[10px] shadow-[0_0_30px_0_#D175B633] h-[500px] overflow-y-auto'>
               <div className='grid grid-cols-[2fr_1fr_1fr_1fr_2fr] gap-3 p-[14px] border-b border-[#D175B6]'>
@@ -118,10 +118,10 @@ export default function Meetingarea() {
 
               {[...Array(6)].map((_, i) => (
                 <div key={i} className='grid grid-cols-[2fr_1fr_1fr_1fr_2fr] gap-3 p-[8px] border-b border-[#D175B6]'>
-                  <span className='text-white text-[15px] font-kanit'>Camera 1 (Video)</span>
-                  <span className='text-white text-[15px] font-kanit'>9 am - 7 pm</span>
-                  <span className='text-white text-[15px] font-kanit'>LP default</span>
-                  <span className='text-white text-[15px] font-kanit'>20</span>
+                  <span className='text-white text-[15px] font-kanit break-words'>Camera 1 (Video)</span>
+                  <span className='text-white text-[15px] font-kanit break-words'>9 am - 7 pm</span>
+                  <span className='text-white text-[15px] font-kanit break-words'>LP default</span>
+                  <span className='text-white text-[15px] font-kanit break-words'>20</span>
                   <div className='relative'>
                     <select className='w-full border border-[#D175B6] rounded-[6px] px-[12px] py-[8px] text-white text-[15px] bg-transparent'>
                       <option>Select Contractor</option>
