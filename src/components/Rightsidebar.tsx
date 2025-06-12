@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Search, Eye } from 'lucide-react';
 
 const RightSidebar = () => {

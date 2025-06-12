@@ -1,6 +1,6 @@
 
 import { Search, Eye,} from 'lucide-react';
-import { Info } from 'lucide-react';
+
 import Navbar from './Navbar';
 import LeftSidebar from './LeftSidebar';
 
